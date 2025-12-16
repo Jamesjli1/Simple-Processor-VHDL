@@ -1,16 +1,21 @@
-# Quartus project files
-*.qpf
-*.qsf
-*.qpf.user
-*.qsf.user
+# Quartus build outputs
+*.sof
+*.pof
+*.jdi
+*.pin
+*.qws
+*.done
 
-# Quartus temp / generated
-*.vmf.temp
+# Quartus reports / summaries
+*.summary
+*.smsg
 *.rpt
-*.csv
+*.fit.*
+*.map.*
+*.sta.*
 
-# Quartus directories
-db/
-incremental_db/
-simulation/
-output_files/
+# Backup files
+*.bak
+
+# Waveform temp
+*.vmf.temp

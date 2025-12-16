@@ -1,0 +1,12 @@
+
+State Machine - |SecondALUDiag|machine:inst12|yfsm
+Name yfsm.s8 yfsm.s7 yfsm.s6 yfsm.s5 yfsm.s4 yfsm.s3 yfsm.s2 yfsm.s1 yfsm.s0 
+yfsm.s0 0 0 0 0 0 0 0 0 0 
+yfsm.s1 0 0 0 0 0 0 0 1 1 
+yfsm.s2 0 0 0 0 0 0 1 0 1 
+yfsm.s3 0 0 0 0 0 1 0 0 1 
+yfsm.s4 0 0 0 0 1 0 0 0 1 
+yfsm.s5 0 0 0 1 0 0 0 0 1 
+yfsm.s6 0 0 1 0 0 0 0 0 1 
+yfsm.s7 0 1 0 0 0 0 0 0 1 
+yfsm.s8 1 0 0 0 0 0 0 0 1 
