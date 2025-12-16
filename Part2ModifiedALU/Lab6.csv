@@ -1,0 +1,87 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# File: /home/student1/aymohame/COE328LAB6PART2/Lab6.csv
+# Generated on: Wed Nov 26 20:57:50 2025
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Differential Pair
+A[7],Input,PIN_V2,1,B1_N0,PIN_V2,,,,
+A[6],Input,PIN_V1,1,B1_N0,PIN_V1,,,,
+A[5],Input,PIN_U4,1,B1_N0,PIN_U4,,,,
+A[4],Input,PIN_U3,1,B1_N0,PIN_U3,,,,
+A[3],Input,PIN_T7,1,B1_N0,PIN_T7,,,,
+A[2],Input,PIN_P2,1,B1_N0,PIN_P2,,,,
+A[1],Input,PIN_P1,1,B1_N0,PIN_P1,,,,
+A[0],Input,PIN_N1,2,B2_N1,PIN_N1,,,,
+B[7],Input,PIN_B13,4,B4_N1,PIN_B13,,,,
+B[6],Input,PIN_C13,3,B3_N0,PIN_C13,,,,
+B[5],Input,PIN_AC13,8,B8_N0,PIN_AC13,,,,
+B[4],Input,PIN_AD13,8,B8_N0,PIN_AD13,,,,
+B[3],Input,PIN_AF14,7,B7_N1,PIN_AF14,,,,
+B[2],Input,PIN_AE14,7,B7_N1,PIN_AE14,,,,
+B[1],Input,PIN_P25,6,B6_N0,PIN_P25,,,,
+B[0],Input,PIN_N26,5,B5_N1,PIN_N26,,,,
+Clocks,Input,PIN_W26,6,B6_N1,PIN_W26,,,,
+data_in,Input,PIN_A13,4,B4_N1,PIN_A13,,,,
+reset,Input,PIN_N25,5,B5_N1,PIN_N25,,,,
+RFirstFourDisp[1],Output,PIN_AF10,8,B8_N0,PIN_AF10,,,,
+RFirstFourDisp[2],Output,PIN_AB12,8,B8_N0,PIN_AB12,,,,
+RFirstFourDisp[3],Output,PIN_AC12,8,B8_N0,PIN_AC12,,,,
+RFirstFourDisp[4],Output,PIN_AD12,8,B8_N0,PIN_AD12,,,,
+RFirstFourDisp[5],Output,PIN_AE11,8,B8_N0,PIN_AE11,,,,
+RFirstFourDisp[6],Output,PIN_V14,8,B8_N0,PIN_V14,,,,
+RFirstFourDisp[7],Output,PIN_V13,8,B8_N0,PIN_V13,,,,
+RFirstFourNeg[1],Output,PIN_AB23,6,B6_N1,PIN_AB23,,,,
+RFirstFourNeg[2],Output,PIN_V22,6,B6_N1,PIN_V22,,,,
+RFirstFourNeg[3],Output,PIN_AC25,6,B6_N1,PIN_AC25,,,,
+RFirstFourNeg[4],Output,PIN_AC26,6,B6_N1,PIN_AC26,,,,
+RFirstFourNeg[5],Output,PIN_AB26,6,B6_N1,PIN_AB26,,,,
+RFirstFourNeg[6],Output,PIN_AB25,6,B6_N1,PIN_AB25,,,,
+RFirstFourNeg[7],Output,PIN_Y24,6,B6_N1,PIN_Y24,,,,
+RLastFourDisplay[1],Output,PIN_V20,6,B6_N1,PIN_V20,,,,
+RLastFourDisplay[2],Output,PIN_V21,6,B6_N1,PIN_V21,,,,
+RLastFourDisplay[3],Output,PIN_W21,6,B6_N1,PIN_W21,,,,
+RLastFourDisplay[4],Output,PIN_Y22,6,B6_N1,PIN_Y22,,,,
+RLastFourDisplay[5],Output,PIN_AA24,6,B6_N1,PIN_AA24,,,,
+RLastFourDisplay[6],Output,PIN_AA23,6,B6_N1,PIN_AA23,,,,
+RLastFourDisplay[7],Output,PIN_AB24,6,B6_N1,PIN_AB24,,,,
+RlastFourNeg[1],Output,,,,PIN_AA1,,,,
+RlastFourNeg[2],Output,,,,PIN_AD17,,,,
+RlastFourNeg[3],Output,,,,PIN_AC10,,,,
+RlastFourNeg[4],Output,,,,PIN_AA11,,,,
+RlastFourNeg[5],Output,,,,PIN_AA10,,,,
+RlastFourNeg[6],Output,,,,PIN_AD16,,,,
+RlastFourNeg[7],Output,,,,PIN_H19,,,,
+StudentIdDisplay[1],Output,PIN_Y23,6,B6_N1,PIN_Y23,,,,
+StudentIdDisplay[2],Output,PIN_AA25,6,B6_N1,PIN_AA25,,,,
+StudentIdDisplay[3],Output,PIN_AA26,6,B6_N1,PIN_AA26,,,,
+StudentIdDisplay[4],Output,PIN_Y26,6,B6_N1,PIN_Y26,,,,
+StudentIdDisplay[5],Output,PIN_Y25,6,B6_N1,PIN_Y25,,,,
+StudentIdDisplay[6],Output,PIN_U22,6,B6_N1,PIN_U22,,,,
+StudentIdDisplay[7],Output,PIN_W24,6,B6_N1,PIN_W24,,,,
+studout[3],Output,,,,PIN_L19,,,,
+studout[2],Output,,,,PIN_U21,,,,
+studout[1],Output,,,,PIN_M20,,,,
+studout[0],Output,,,,PIN_L21,,,,
+testR1[3],Output,,,,PIN_T23,,,,
+testR1[2],Output,,,,PIN_U26,,,,
+testR1[1],Output,,,,PIN_T24,,,,
+testR1[0],Output,,,,PIN_K18,,,,
+testR2[3],Output,,,,PIN_U12,,,,
+testR2[2],Output,,,,PIN_V11,,,,
+testR2[1],Output,,,,PIN_Y12,,,,
+testR2[0],Output,,,,PIN_AE13,,,,

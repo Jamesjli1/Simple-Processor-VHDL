@@ -1,0 +1,40 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY decod416test IS
+    PORT(
+        x   : IN  std_logic_vector(3 DOWNTO 0); -- 4-bit input
+        en  : IN  std_logic;                    -- enable
+        y   : OUT std_logic_vector(15 DOWNTO 0) -- 16 outputs
+    );
+END decod416test;
+
+ARCHITECTURE behavior OF decod416test IS
+BEGIN
+    PROCESS(x, en)
+    BEGIN
+        IF en = '1' THEN
+            CASE x IS
+                WHEN "0000" => y <= "0000000000000001";
+                WHEN "0001" => y <= "0000000000000010";
+                WHEN "0010" => y <= "0000000000000100";
+                WHEN "0011" => y <= "0000000000001000";
+                WHEN "0100" => y <= "0000000000010000";
+                WHEN "0101" => y <= "0000000000100000";
+                WHEN "0110" => y <= "0000000001000000";
+                WHEN "0111" => y <= "0000000010000000";
+                WHEN "1000" => y <= "0000000100000000";
+                WHEN "1001" => y <= "0000001000000000";
+                WHEN "1010" => y <= "0000010000000000";
+                WHEN "1011" => y <= "0000100000000000";
+                WHEN "1100" => y <= "0001000000000000";
+                WHEN "1101" => y <= "0010000000000000";
+                WHEN "1110" => y <= "0100000000000000";
+                WHEN "1111" => y <= "1000000000000000";
+                WHEN OTHERS => y <= (OTHERS => '0');
+            END CASE;
+        ELSE
+            y <= (OTHERS => '0');
+        END IF;
+    END PROCESS;
+END behavior;

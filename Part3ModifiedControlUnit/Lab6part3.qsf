@@ -1,0 +1,103 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# Date created = 16:39:47  November 27, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Lab6part3_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY ALU3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:39:47  NOVEMBER 27, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name BDF_FILE ThirdALUDiag.bdf
+set_global_assignment -name VHDL_FILE sseg_modified.vhd
+set_global_assignment -name VHDL_FILE sseg.vhd
+set_global_assignment -name VHDL_FILE machine.vhd
+set_global_assignment -name VHDL_FILE latch2.vhd
+set_global_assignment -name VHDL_FILE latch1.vhd
+set_global_assignment -name VHDL_FILE dec2to4.vhd
+set_global_assignment -name VHDL_FILE ALU3.vhd
+set_global_assignment -name BDF_FILE 4to16decoderreal.bdf
+set_global_assignment -name BDF_FILE 3to8.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../COE328LAB6PART3/lab6prob3Waveform.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../COE328LAB6PART3/lab6prob3realWaveform.vwf
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_V2 -to A[7]
+set_location_assignment PIN_V1 -to A[6]
+set_location_assignment PIN_U4 -to A[5]
+set_location_assignment PIN_U3 -to A[4]
+set_location_assignment PIN_T7 -to A[3]
+set_location_assignment PIN_P2 -to A[2]
+set_location_assignment PIN_P1 -to A[1]
+set_location_assignment PIN_N1 -to A[0]
+set_location_assignment PIN_A13 -to data_in
+set_location_assignment PIN_B13 -to B[7]
+set_location_assignment PIN_C13 -to B[6]
+set_location_assignment PIN_AC13 -to B[5]
+set_location_assignment PIN_AD13 -to B[4]
+set_location_assignment PIN_AF14 -to B[3]
+set_location_assignment PIN_AE14 -to B[2]
+set_location_assignment PIN_P25 -to B[1]
+set_location_assignment PIN_N26 -to B[0]
+set_location_assignment PIN_N25 -to reset
+set_location_assignment PIN_W26 -to Clocks
+set_location_assignment PIN_AF10 -to Resdisplay[1]
+set_location_assignment PIN_AB12 -to Resdisplay[2]
+set_location_assignment PIN_AC12 -to Resdisplay[3]
+set_location_assignment PIN_AD11 -to Resdisplay[4]
+set_location_assignment PIN_AE11 -to Resdisplay[5]
+set_location_assignment PIN_V14 -to Resdisplay[6]
+set_location_assignment PIN_V13 -to Resdisplay[7]
+set_location_assignment PIN_Y23 -to StudentIdDisplay[1]
+set_location_assignment PIN_AA25 -to StudentIdDisplay[2]
+set_location_assignment PIN_AA26 -to StudentIdDisplay[3]
+set_location_assignment PIN_Y26 -to StudentIdDisplay[4]
+set_location_assignment PIN_Y25 -to StudentIdDisplay[5]
+set_location_assignment PIN_U22 -to StudentIdDisplay[6]
+set_location_assignment PIN_W24 -to StudentIdDisplay[7]
+set_global_assignment -name VECTOR_WAVEFORM_FILE lab6prob3realWaveform.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE ALU3symbol.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ALU3Waveform.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE /home/student1/aymohame/COE328LAB6PART3REAL/ALU3Waveform.vwf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name BDF_FILE ssegSymbol.bdf

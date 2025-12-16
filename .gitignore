@@ -1,0 +1,23 @@
+# Quartus generated files
+db/
+incremental_db/
+simulation/
+output_files/
+
+# Quartus user files
+*.qpf.user
+*.qws
+
+# Compiled outputs
+*.sof
+*.pof
+*.jic
+
+# Backup / temp
+*.bak
+*.tmp
+*.rpt
+
+# OS junk
+.DS_Store
+Thumbs.db

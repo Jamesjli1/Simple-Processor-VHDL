@@ -1,0 +1,106 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(symbol
+	(rect 696 208 888 384)
+	(text "ALU" (rect 5 0 28 11)(font "Arial" ))
+	(text "inst" (rect 8 160 26 171)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Clock" (rect 0 0 29 11)(font "Arial" ))
+		(text "Clock" (rect 21 27 50 38)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "A[7..0]" (rect 0 0 31 11)(font "Arial" ))
+		(text "A[7..0]" (rect 21 43 52 54)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "B[7..0]" (rect 0 0 31 11)(font "Arial" ))
+		(text "B[7..0]" (rect 21 59 52 70)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "student_id[3..0]" (rect 0 0 75 11)(font "Arial" ))
+		(text "student_id[3..0]" (rect 21 75 96 86)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "OP0[3..0]" (rect 0 0 47 11)(font "Arial" ))
+		(text "OP0[3..0]" (rect 21 91 68 102)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "OP1[3..0]" (rect 0 0 47 11)(font "Arial" ))
+		(text "OP1[3..0]" (rect 21 107 68 118)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "OP2[3..0]" (rect 0 0 47 11)(font "Arial" ))
+		(text "OP2[3..0]" (rect 21 123 68 134)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "OP3[3..0]" (rect 0 0 47 11)(font "Arial" ))
+		(text "OP3[3..0]" (rect 21 139 68 150)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 192 32)
+		(output)
+		(text "Neg" (rect 0 0 22 11)(font "Arial" ))
+		(text "Neg" (rect 153 27 175 38)(font "Arial" ))
+		(line (pt 192 32)(pt 176 32))
+	)
+	(port
+		(pt 192 48)
+		(output)
+		(text "R1[3..0]" (rect 0 0 38 11)(font "Arial" ))
+		(text "R1[3..0]" (rect 139 43 177 54)(font "Arial" ))
+		(line (pt 192 48)(pt 176 48)(line_width 3))
+	)
+	(port
+		(pt 192 64)
+		(output)
+		(text "R2[3..0]" (rect 0 0 38 11)(font "Arial" ))
+		(text "R2[3..0]" (rect 139 59 177 70)(font "Arial" ))
+		(line (pt 192 64)(pt 176 64)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 176 160))
+	)
+)
